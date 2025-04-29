@@ -1,0 +1,57 @@
+  # rm ext.* srt.*
+
+# gunzip -f PerSq1.dat127b.gz
+
+  ./extr  < dat480s.dat
+
+  ./srt <ext.C11> srt.C11
+  ./srt <ext.C12> srt.C12
+  ./srt <ext.S21> srt.S21
+  ./srt <ext.Rx1> srt.Rx1
+  ./srt <ext.R21> srt.R21
+  ./srt <ext.R01> srt.R01
+  ./srt <ext.Pbh> srt.Pbh
+
+  ./srt <ext.C21> srt.C21
+  ./srt <ext.C22> srt.C22
+  ./srt <ext.S22> srt.S22
+  ./srt <ext.Rx2> srt.Rx2
+  ./srt <ext.R22> srt.R22
+  ./srt <ext.R02> srt.R02
+  ./srt <ext.Pb2> srt.Pb2
+
+  ./srt <ext.C1t> srt.C1t
+  ./srt <ext.C2t> srt.C2t
+  ./srt <ext.S2t> srt.S2t
+  ./srt <ext.Rxt> srt.Rxt
+  ./srt <ext.R2t> srt.R2t
+  ./srt <ext.R0t> srt.R0t
+  ./srt <ext.Pbt> srt.Pbt
+
+
+  ./cmp <srt.C11> cmp.C11
+  ./cmp <srt.C12> cmp.C12
+  ./cmp <srt.S21> cmp.S21
+  ./cmp <srt.Rx1> cmp.Rx1
+  ./cmp <srt.R21> cmp.R21
+  ./cmp <srt.R01> cmp.R01
+  ./cmp <srt.Pbh> cmp.Pbh
+
+  ./cmp <srt.C21> cmp.C21
+  ./cmp <srt.C22> cmp.C22
+  ./cmp <srt.S22> cmp.S22
+  ./cmp <srt.Rx2> cmp.Rx2
+  ./cmp <srt.R22> cmp.R22
+  ./cmp <srt.R02> cmp.R02
+  ./cmp <srt.Pb2> cmp.Pb2
+
+  ./cmp <srt.C1t> cmp.C1t
+  ./cmp <srt.C2t> cmp.C2t
+  ./cmp <srt.S2t> cmp.S2t
+  ./cmp <srt.Rxt> cmp.Rxt
+  ./cmp <srt.R2t> cmp.R2t
+  ./cmp <srt.R0t> cmp.R0t
+  ./cmp <srt.Pbt> cmp.Pbt
+
+
+  rm ext.* srt.*

@@ -1,0 +1,83 @@
+./extr  <p3-critical.dat
+
+  ./srt <ext.Rxi> srt.Rxi
+  ./srt <ext.R2i> srt.R2i
+  ./srt <ext.Pbi> srt.Pbi
+  ./srt <ext.Q1i> srt.Q1i
+  ./srt <ext.Qsi> srt.Qsi
+
+  ./srt <ext.Rx1> srt.Rx1
+  ./srt <ext.R21> srt.R21
+  ./srt <ext.Pb1> srt.Pb1
+  ./srt <ext.Q11> srt.Q11
+  ./srt <ext.Qs1> srt.Qs1
+
+  ./srt <ext.Rx2> srt.Rx2
+  ./srt <ext.R22> srt.R22
+  ./srt <ext.Pbt> srt.Pbt
+  ./srt <ext.Q12> srt.Q12
+  ./srt <ext.Qs2> srt.Qs2
+
+  ./srt <ext.Rxt> srt.Rxt
+  ./srt <ext.R2t> srt.R2t
+  ./srt <ext.Pbt> srt.Pbt
+  ./srt <ext.Q1t> srt.Q1t
+  ./srt <ext.Qst> srt.Qst
+
+  ./srt <ext.C21> srt.C21
+  ./srt <ext.C11> srt.C11
+  ./srt <ext.C1t> srt.C1t
+  ./srt <ext.C21t> srt.C21t
+
+
+  ./srt <ext.chi1> srt.chi1
+  ./srt <ext.chi2> srt.chi2
+  ./srt <ext.chit> srt.chit
+  ./srt <ext.Pb2> srt.Pb2
+  ./srt <ext.S2t> srt.S2t
+  ./srt <ext.S2t1> srt.S2t1
+  ./srt <ext.CK1> srt.CK1
+  ./srt <ext.CK2> srt.CK2
+  ./srt <ext.CKt> srt.CKt
+
+  ./cmp <srt.Rxi> cmp.Rxi
+  ./cmp <srt.R2i> cmp.R2i
+  ./cmp <srt.Pbi> cmp.Pbi
+  ./cmp <srt.Q1i> cmp.Q1i
+  ./cmp <srt.Qsi> cmp.Qsi
+
+  ./cmp <srt.Rx1> cmp.Rx1
+  ./cmp <srt.R21> cmp.R21
+  ./cmp <srt.Pb1> cmp.Pb1
+  ./cmp <srt.Q11> cmp.Q11
+  ./cmp <srt.Qs1> cmp.Qs1
+
+  ./cmp <srt.Rx2> cmp.Rx2
+  ./cmp <srt.R22> cmp.R22
+  ./cmp <srt.Pbt> cmp.Pbt
+  ./cmp <srt.Q12> cmp.Q12
+  ./cmp <srt.Qs2> cmp.Qs2
+
+  ./cmp <srt.Rxt> cmp.Rxt
+  ./cmp <srt.R2t> cmp.R2t
+  ./cmp <srt.Pbt> cmp.Pbt
+  ./cmp <srt.Q1t> cmp.Q1t
+  ./cmp <srt.Qst> cmp.Qst
+
+  ./cmp <srt.C21> cmp.C21
+  ./cmp <srt.C11> cmp.C11
+  ./cmp <srt.C1t> cmp.C1t
+  ./cmp <srt.C21t> cmp.C21t
+  
+
+
+  ./cmp <srt.chi1> cmp.chi1
+  ./cmp <srt.chi2> cmp.chi2
+  ./cmp <srt.chit> cmp.chit
+  ./cmp <srt.Pb2> cmp.Pb2
+  ./cmp <srt.S2t> cmp.S2t
+  ./cmp <srt.S2t1> cmp.S2t1
+  ./cmp <srt.CK1 > cmp.CK1
+  ./cmp <srt.CK2 > cmp.CK2
+  ./cmp <srt.CKt > cmp.CKt
+ rm ext.* srt.* 
